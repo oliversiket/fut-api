@@ -1,17 +1,14 @@
 openapi: 3.0.0
 servers:
   # Added by API Auto Mocking Plugin
-  - description: SwaggerHub API Auto Mocking
+  - description: Servers provided by EA
     url: https://virtserver.swaggerhub.com/oliversiket/Fut/1.0.0
 info:
   description: FUT Champions API
   version: "1.0.4"
   title: Simple Inventory API
-  contact:
-    email: you@your-company.com
-  license:
-    name: Apache 2.0
-    url: 'http://www.apache.org/licenses/LICENSE-2.0.html'
+  x-logo:
+    url: https://media.contentapi.ea.com/content/dam/ea/easports/fifa/news-media/2018/jan/24/FUT-Champions.png.adapt.crop191x100.628p.png
 tags:
   - name: admins
     description: Secured Admin-only calls
